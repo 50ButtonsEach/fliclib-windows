@@ -19,7 +19,7 @@ If you want to be able to access the server also from the rest of your network o
 
 **Compatibility**
 
-This application requires Windows 10 with the latest update running on a machine that has Bluetooth Low Energy, either built into the computer or with a separate Bluetooth USB dongle.
+This application requires Windows 10 with the latest update running on a machine that has Bluetooth Low Energy, either built into the computer or with a separate Bluetooth USB dongle. You must also install the Visual Studio 2015 C++ Redistributable (https://www.microsoft.com/en-us/download/details.aspx?id=48145, vc_redist.x86.exe), if it isn't already installed. Bluetooth controllers we have tried out ourselves can be found here: https://github.com/50ButtonsEach/fliclib-linux-hci#bluetooth-controllers.
 
 **Documentation**
 
