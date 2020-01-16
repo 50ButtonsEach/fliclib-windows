@@ -25,7 +25,7 @@ This application requires Windows 10 desktop for x86 or x86_64 (ARM / Windows IO
 
 This application uses the same protocol as first introduced with our fliclib-linux-hci release. The documentation can be found in the [ProtocolDocumentation.md](https://github.com/50ButtonsEach/fliclib-linux-hci/blob/master/ProtocolDocumentation.md) file.
 
-There are however a few thing in that protocol that have not been implemented in this application and those are:
+There are however a few things in that protocol that have not been implemented in this application and those are:
 
 The following fields in the EvtGetInfoResponse:
 
@@ -34,6 +34,8 @@ The following fields in the EvtGetInfoResponse:
 * `currently_no_space_for_new_connection`
 
 For now you can ignore those fields.
+
+Battery listener is also not supported.
 
 **Clients**
 
